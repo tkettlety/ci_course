@@ -4,8 +4,10 @@ version: 2
 python:
   version: "3.11"
 
-sphinx:
-  configuration: docs/source/conf.py
-
 build:
   os: ubuntu-20.04
+  tools:
+    sphinx: null
+
+sphinx:
+  configuration: docs/source/conf.py
