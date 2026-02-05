@@ -7,7 +7,7 @@ python:
 build:
   os: ubuntu-20.04
   tools:
-    sphinx: null
+    python: "3.11"
 
 sphinx:
   configuration: docs/source/conf.py
